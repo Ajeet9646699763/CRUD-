@@ -1,0 +1,11 @@
+.navbar ul{
+    display: flex;
+    justify-content: flex-start; 
+}
+.navbar ul li {
+    padding: 20px;
+    list-style: none;
+}
+.navlink{
+    text-decoration: none;
+}

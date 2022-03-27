@@ -1,0 +1,4 @@
+{
+    "employee":[{ "id":1, "name":"John", "age":30, "city":"New York"},
+                { "id":2,"name":"ajeet", "age":20, "city":"indian"}]
+    }

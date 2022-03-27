@@ -1,0 +1,11 @@
+.table{
+    text-align:center;
+    padding: 20px;
+}
+th{
+    background-color: bisque;
+    text-align: center;
+}
+tr{
+    background-color: #f2f2f2;
+}
