@@ -1,4 +1,22 @@
 {
-    "employee":[{ "id":1, "name":"John", "age":30, "city":"New York"},
-                { "id":2,"name":"ajeet", "age":20, "city":"indian"}]
+  "employee": [
+    {
+      "name": "gurpreet",
+      "age": "30",
+      "email": " guru@gmail.com",
+      "id": "6"
+    },
+    {
+      "name": "anmol",
+      "age": "22",
+      "email": " anmol@gmail.com",
+      "id": "4"
+    },
+    {
+      "name": "sanjeev",
+      "age": "23",
+      "email": " sanju@gmail.com",
+      "id": "555"
     }
+  ]
+}

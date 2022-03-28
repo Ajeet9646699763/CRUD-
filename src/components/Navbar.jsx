@@ -2,27 +2,30 @@ import React from "react";
 import "./Nav.css";
 import { NavLink } from "react-router-dom";
 import { Button } from "bootstrap";
-
 function Navbar() {
   return (
     <div className="navbar">
-      {/* <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a> */}
-      <ul className="me-auto">
+      <ul className="navlink">
         <li>
-          <NavLink to="/"> <h4 className="navlink">Home</h4></NavLink>
+          <NavLink to="/" className="navlink">
+            Home
+          </NavLink>
         </li>
         <li>
-          
-          <NavLink to="/about"><h4 className="navlink">About</h4></NavLink>
+          <NavLink to="/about" className="navlink">
+            About
+          </NavLink>
         </li>
         <li>
-        
-          <NavLink to="/contact"><h4 className="navlink">Contact</h4></NavLink>
+          <NavLink to="/contact" className="navlink">
+            Contact
+          </NavLink>
         </li>
       </ul>
-     <NavLink to="/AddUser">  <button>Add users</button></NavLink>
+      <NavLink to="/AddUser">
+        <button className="btn btn-primary mr-10">Add users</button>
+      </NavLink>
+      
     </div>
   );
 }
